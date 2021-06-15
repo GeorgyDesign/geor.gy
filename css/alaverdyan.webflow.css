@@ -2166,6 +2166,10 @@ ul {
   align-items: center;
 }
 
+.extra-link:hover {
+  color: #256eff;
+}
+
 .extra-link__text {
   font-size: 1.3em;
   line-height: 1.2;
