@@ -1131,6 +1131,8 @@ ul {
 }
 
 .button {
+  position: relative;
+  top: 0em;
   padding: 0.52em 2.19em;
   border-style: solid;
   border-width: 0.1em;
@@ -1138,8 +1140,8 @@ ul {
   border-radius: 0.4em;
   background-color: #256eff;
   box-shadow: 0 1px 1px 0 transparent;
-  -webkit-transition: box-shadow 200ms ease;
-  transition: box-shadow 200ms ease;
+  -webkit-transition: top 200ms cubic-bezier(.455, .03, .515, .955), box-shadow 200ms ease;
+  transition: top 200ms cubic-bezier(.455, .03, .515, .955), box-shadow 200ms ease;
   font-family: Manrope, sans-serif;
   color: #fff;
   font-size: 1.3em;
@@ -1148,7 +1150,19 @@ ul {
 }
 
 .button:hover {
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  top: -0.2em;
+  box-shadow: 0 10px 20px -5px rgba(108, 155, 246, 0.7);
+}
+
+.button.is--secondary {
+  margin-left: 0.8em;
+  border-color: #4b4b4b;
+  background-color: transparent;
+  color: #2b2b2b;
+}
+
+.button.is--secondary:hover {
+  box-shadow: 0 10px 20px -5px rgba(165, 166, 167, 0.7);
 }
 
 .is--zero_margin {
