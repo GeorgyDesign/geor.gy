@@ -2070,7 +2070,6 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #eceff1;
 }
 
 .menu-button {
@@ -2118,7 +2117,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 4em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2154,7 +2153,7 @@ ul {
   display: flex;
   width: 100%;
   height: 30px;
-  margin-top: 5em;
+  margin-top: 6em;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -2183,7 +2182,7 @@ ul {
   bottom: 0%;
   z-index: 999;
   display: none;
-  min-height: 100vh;
+  min-height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
