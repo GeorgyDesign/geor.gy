@@ -523,7 +523,7 @@ ul {
 
 .b-wrap {
   position: relative;
-  z-index: 100;
+  z-index: 1001;
   overflow: visible;
 }
 
@@ -2060,7 +2060,6 @@ ul {
   display: flex;
   width: 100vw;
   height: 5.5em;
-  margin-top: -6.25em;
   padding-right: 4.43em;
   padding-left: 4.43em;
   -webkit-box-pack: justify;
