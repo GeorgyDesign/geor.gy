@@ -2179,7 +2179,7 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 999;
-  display: block;
+  display: none;
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
