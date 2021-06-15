@@ -2143,7 +2143,7 @@ ul {
   color: #2b2b2b;
 }
 
-.extra-links-wrap {
+.extra-link-wrap {
   position: static;
   left: 0%;
   top: auto;
@@ -2179,7 +2179,7 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 999;
-  display: none;
+  display: block;
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2459,6 +2459,8 @@ ul {
 }
 
 .menu-link {
+  position: relative;
+  z-index: 1;
   overflow: hidden;
   margin-bottom: 2em;
 }
@@ -2488,6 +2490,21 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.menu-link-cover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  background-color: #eceff1;
+  opacity: 0;
+}
+
+.menu-link-block-wrap {
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
