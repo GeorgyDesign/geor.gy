@@ -137,8 +137,14 @@ p {
 }
 
 a {
+  -webkit-transition: color 200ms cubic-bezier(.455, .03, .515, .955);
+  transition: color 200ms cubic-bezier(.455, .03, .515, .955);
   color: #256eff;
   text-decoration: none;
+}
+
+a:hover {
+  color: #0046d2;
 }
 
 ul {
@@ -574,10 +580,6 @@ ul {
   font-family: Manrope, sans-serif;
   color: #2b2b2b;
   text-align: center;
-}
-
-.body.is--contact {
-  background-color: #0a0a0a;
 }
 
 .body.no-scroll {
@@ -1152,6 +1154,7 @@ ul {
 .button:hover {
   top: -0.2em;
   box-shadow: 0 10px 20px -5px rgba(108, 155, 246, 0.7);
+  color: #fff;
 }
 
 .button.is--secondary {
@@ -1673,7 +1676,7 @@ ul {
 }
 
 .form__heading.is--success {
-  margin-bottom: 0em;
+  margin-bottom: 1em;
   font-weight: 500;
   text-align: center;
 }
@@ -1737,9 +1740,15 @@ ul {
   cursor: pointer;
 }
 
+.form__checkbox:hover {
+  border-color: #256eff;
+}
+
 .form__checkbox.w--redirected-checked {
   width: 1.46em;
   height: 1.46em;
+  margin-top: 0px;
+  margin-left: 0px;
   border-style: none;
   border-width: 0.05em;
   border-color: rgba(75, 75, 75, 0);
@@ -1776,6 +1785,10 @@ ul {
 .form-success {
   padding: 0px;
   background-color: transparent;
+}
+
+.form-error {
+  background-color: #f7b5bd;
 }
 
 .quote-text {
@@ -2081,20 +2094,24 @@ ul {
   cursor: pointer;
 }
 
-.menu-link {
+.menu-link-text {
+  z-index: 2;
   display: block;
-  margin-bottom: 0.5em;
   color: #2b2b2b;
   font-size: 2.08em;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
 }
 
-.menu-link.is--no_margin {
+.menu-link-text.is--no_margin {
   margin-bottom: 0em;
 }
 
-.menu-links-wrap {
+.menu-link-text.is--hover {
+  color: #256eff;
+}
+
+.menu-link-wrap {
   position: relative;
   top: 3em;
   display: -webkit-box;
@@ -2162,7 +2179,7 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 999;
-  display: none;
+  display: block;
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2178,6 +2195,53 @@ ul {
   -ms-flex-align: center;
   align-items: center;
   background-color: #eceff1;
+}
+
+.menu-links-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-top: -0.5em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.menu-links-center {
+  overflow: hidden;
+}
+
+.menu-link-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .embed-spline {
@@ -2387,6 +2451,43 @@ ul {
   width: 20em;
   margin-bottom: 2em;
   margin-left: 20em;
+}
+
+.div-block {
+  height: 0.15em;
+  background-color: #313131;
+}
+
+.menu-link {
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.menu-link-line {
+  height: 0.3em;
+  background-color: #256eff;
+}
+
+.menu-link-text-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 2.6em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
