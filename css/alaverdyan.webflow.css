@@ -2029,7 +2029,7 @@ ul {
   align-self: center;
 }
 
-.dark_mode-wrap {
+.dm-wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2070,6 +2070,7 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #eceff1;
 }
 
 .menu-button {
