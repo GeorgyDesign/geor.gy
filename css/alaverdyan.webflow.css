@@ -2168,6 +2168,10 @@ ul {
   align-items: center;
 }
 
+.extra-link {
+  color: #2b2b2b;
+}
+
 .extra-link:hover {
   color: #256eff;
 }
