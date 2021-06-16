@@ -2282,13 +2282,7 @@ ul {
 .svg-lang {
   width: 1.98em;
   height: 1.98em;
-  -webkit-transition: color 300ms cubic-bezier(.455, .03, .515, .955);
-  transition: color 300ms cubic-bezier(.455, .03, .515, .955);
   color: #4b4b4b;
-}
-
-.svg-lang:hover {
-  color: #0a0a0a;
 }
 
 .svg-moon {
@@ -2338,13 +2332,7 @@ ul {
   bottom: 0%;
   width: 1.8em;
   height: 1.8em;
-  -webkit-transition: color 300ms cubic-bezier(.455, .03, .515, .955);
-  transition: color 300ms cubic-bezier(.455, .03, .515, .955);
   color: #4b4b4b;
-}
-
-.svg-menu1:hover {
-  color: #0a0a0a;
 }
 
 .link {
@@ -2422,13 +2410,7 @@ ul {
   display: none;
   width: 1.8em;
   height: 1.8em;
-  -webkit-transition: color 300ms cubic-bezier(.455, .03, .515, .955);
-  transition: color 300ms cubic-bezier(.455, .03, .515, .955);
   color: #4b4b4b;
-}
-
-.svg-menu2:hover {
-  color: #0a0a0a;
 }
 
 .h-wrap {
