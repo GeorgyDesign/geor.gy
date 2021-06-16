@@ -2070,7 +2070,7 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #eceff1;
+  background-color: rgba(236, 239, 241, 0.7);
 }
 
 .menu-button {
@@ -2508,6 +2508,10 @@ ul {
 
 .menu-link-block-wrap {
   position: relative;
+}
+
+.hidden-interactions-wrap {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
