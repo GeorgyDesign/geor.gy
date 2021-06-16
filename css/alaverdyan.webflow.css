@@ -558,6 +558,7 @@ ul {
 
 .b-h1_wrap {
   position: absolute;
+  z-index: 3;
 }
 
 .b-h1_wrap__h1 {
@@ -702,11 +703,13 @@ ul {
 
 .b-b-wrap {
   position: absolute;
+  z-index: 3;
   margin-top: 0vh;
 }
 
 .b-b {
   position: relative;
+  z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2510,6 +2513,16 @@ ul {
 
 .hidden-interactions-wrap {
   display: none;
+}
+
+.b-blur {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  background-color: rgba(49, 49, 49, 0.3);
 }
 
 @media screen and (max-width: 991px) {
