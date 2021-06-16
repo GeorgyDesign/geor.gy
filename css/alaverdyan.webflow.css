@@ -2073,7 +2073,7 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(236, 239, 241, 0.7);
+  background-color: rgba(236, 239, 241, 0.5);
 }
 
 .menu-button {
