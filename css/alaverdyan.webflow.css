@@ -2522,7 +2522,7 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  background-color: rgba(49, 49, 49, 0.3);
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
