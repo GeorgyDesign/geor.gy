@@ -2070,7 +2070,7 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(236, 239, 241, 0.5);
+  background-color: rgba(236, 239, 241, 0.7);
 }
 
 .menu-button {
@@ -2312,7 +2312,6 @@ ul {
   border-width: 0.15em;
   border-color: #4b4b4b;
   border-radius: 0.83em;
-  background-color: #fff;
 }
 
 .dm-dot {
@@ -2322,7 +2321,6 @@ ul {
   border-width: 0.15em;
   border-color: #4b4b4b;
   border-radius: 0.83em;
-  background-color: #eceff1;
 }
 
 .svg-menu1 {
