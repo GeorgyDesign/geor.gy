@@ -2113,6 +2113,10 @@ ul {
   color: #256eff;
 }
 
+.menu-link-text.is--extra {
+  font-size: 1.3em;
+}
+
 .menu-link-wrap {
   position: relative;
   top: 3em;
@@ -2480,6 +2484,10 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.menu-link-text-wrap.is--extra {
+  height: 1.8em;
 }
 
 .menu-link-cover {
