@@ -980,10 +980,11 @@ ul {
 }
 
 .section.is--blog_preview {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 239, 241, 0.5)), to(rgba(236, 239, 241, 0.5))), url("../images/Blog%20Preview.png");
-  background-image: linear-gradient(180deg, rgba(236, 239, 241, 0.5), rgba(236, 239, 241, 0.5)), url("../images/Blog%20Preview.png");
-  background-position: 0px 0px, 0px 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 239, 241, 0.5)), to(rgba(236, 239, 241, 0.5))), url("../images/image-preview-1.png");
+  background-image: linear-gradient(180deg, rgba(236, 239, 241, 0.5), rgba(236, 239, 241, 0.5)), url("../images/image-preview-1.png");
+  background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .content {
@@ -1470,7 +1471,7 @@ ul {
   width: 50em;
   height: 23em;
   margin-top: 3em;
-  background-image: url("../images/%D0%9F%D0%B8%D1%82%D0%B5%D1%80%20(93).jpg");
+  background-image: url("../images/image-georgy-4.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
