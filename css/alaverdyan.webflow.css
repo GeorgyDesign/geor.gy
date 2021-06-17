@@ -2968,6 +2968,31 @@ ul {
   line-height: 1.2;
 }
 
+.loader-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Moloko, 'Trebuchet MS', sans-serif;
+  font-size: 3.39em;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: left;
+}
+
+.loader-name {
+  margin-top: 0.62em;
+  margin-bottom: 0px;
+  font-family: Moloko, 'Trebuchet MS', sans-serif;
+  font-size: 1.67em;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: right;
+  cursor: default;
+}
+
+.loader-name.fade-up.georgy {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 10px;
