@@ -3137,6 +3137,10 @@ ul {
   display: flex;
 }
 
+.mobile-only-image {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 9px;
@@ -3174,6 +3178,11 @@ ul {
 
   .image-wrap.is--relative_position {
     top: 0em;
+  }
+
+  .faq-list {
+    padding-right: 1em;
+    padding-left: 1em;
   }
 
   .form__select-field {
@@ -3771,6 +3780,7 @@ ul {
   }
 
   .mobile-only-image {
+    display: block;
     margin-bottom: 4em;
   }
 }
