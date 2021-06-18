@@ -1795,7 +1795,10 @@ ul {
 }
 
 .form__checkbox-wrap {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 1.04em;
   margin-bottom: 0px;
   padding-left: 0px;
