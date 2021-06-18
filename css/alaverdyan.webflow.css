@@ -3181,8 +3181,8 @@ ul {
   }
 
   .faq-list {
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
   }
 
   .form__select-field {
@@ -3623,6 +3623,8 @@ ul {
     border-width: 0.1em;
     border-color: #c1c1c1;
     background-color: #fff;
+    -webkit-transition: border-color 200ms cubic-bezier(.455, .03, .515, .955);
+    transition: border-color 200ms cubic-bezier(.455, .03, .515, .955);
   }
 
   .form__text-field:focus {
