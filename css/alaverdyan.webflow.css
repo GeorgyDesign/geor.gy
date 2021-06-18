@@ -2239,10 +2239,7 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   min-height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -3182,6 +3179,10 @@ ul {
     top: 0.1em;
   }
 
+  .extra-link-wrap {
+    margin-top: 2em;
+  }
+
   .embed-wrap {
     right: -8%;
   }
@@ -3441,6 +3442,10 @@ ul {
     display: none;
   }
 
+  .menu-link-block-wrap.is--mobile-hidden {
+    display: none;
+  }
+
   .social-logo {
     margin-right: 0.6em;
     margin-left: 0.6em;
@@ -3461,7 +3466,7 @@ ul {
   }
 
   .h1.is--zero_margin {
-    font-size: 2em;
+    font-size: 2.8em;
     font-weight: 700;
   }
 
@@ -3469,16 +3474,20 @@ ul {
     font-size: 2em;
   }
 
+  .u-list_h.is--zero_margin {
+    font-size: 2em;
+  }
+
   .h4 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
   .sh1 {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .sh1.is--font_medium {
-    font-size: 3em;
+    font-size: 4em;
   }
 
   .p-box__p.is--font_uppercase {
@@ -3490,38 +3499,38 @@ ul {
   }
 
   .container.is--about_me {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--footer {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 12em;
+    padding-bottom: 3em;
   }
 
   .container.is--form {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--faq {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--cta {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--services {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--welcome {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 15em;
+    padding-bottom: 15em;
   }
 
   .container.is--menu {
@@ -3550,6 +3559,10 @@ ul {
     width: 28%;
   }
 
+  .u-list_item {
+    font-size: 1.3em;
+  }
+
   .text-wrap.is--down_margin {
     width: auto;
     padding-right: 0em;
@@ -3569,7 +3582,7 @@ ul {
   }
 
   .faq-p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .form__text-field.is--type {
@@ -3577,7 +3590,7 @@ ul {
   }
 
   .quote-span {
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
 
   .quote-span.is--left_margin {
@@ -3594,6 +3607,15 @@ ul {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .extra-link-wrap {
+    margin-top: 6em;
+  }
+
+  .menu-link-block-wrap {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 
   .social-logo-wrap {
