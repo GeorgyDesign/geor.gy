@@ -1233,6 +1233,7 @@ ul {
 }
 
 .u-list_item {
+  font-size: 1.3em;
   cursor: default;
 }
 
@@ -1431,7 +1432,6 @@ ul {
 
 .u-list {
   font-family: Manrope, sans-serif;
-  font-size: 1.3em;
   line-height: 1.6;
   font-weight: 400;
   text-align: left;
@@ -2411,6 +2411,11 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.embed-hover {
+  width: 35em;
+  height: 35em;
 }
 
 .page-load-wrap {
@@ -3480,12 +3485,22 @@ ul {
     font-size: 2em;
   }
 
+  .h2.is--group1-related {
+    margin-bottom: 1em;
+    font-size: 2.8em;
+  }
+
   .u-list_h.is--zero_margin {
     font-size: 2em;
   }
 
   .h4 {
-    font-size: 1.4em;
+    font-size: 1.7em;
+  }
+
+  .p {
+    margin-bottom: 1em;
+    font-size: 1.7em;
   }
 
   .sh1 {
@@ -3498,7 +3513,7 @@ ul {
 
   .p-box__p.is--font_uppercase {
     width: auto;
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
   .p-box {
@@ -3526,18 +3541,18 @@ ul {
   }
 
   .container.is--cta {
-    padding-top: 12em;
+    padding-top: 8em;
     padding-bottom: 12em;
   }
 
   .container.is--services {
     padding-top: 12em;
-    padding-bottom: 12em;
+    padding-bottom: 8em;
   }
 
   .container.is--welcome {
-    padding-top: 20em;
-    padding-bottom: 20em;
+    padding-top: 12em;
+    padding-bottom: 12em;
   }
 
   .container.is--menu {
@@ -3567,7 +3582,7 @@ ul {
   }
 
   .u-list_item {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
   .note.is--zero_left_margin {
@@ -3593,7 +3608,7 @@ ul {
   }
 
   .faq-p {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
   .form__text-field.is--type {
@@ -3622,6 +3637,12 @@ ul {
 
   .extra-link-wrap {
     margin-top: 6em;
+  }
+
+  .embed-hover {
+    display: none;
+    width: 20em;
+    height: 20em;
   }
 
   .menu-link-block-wrap {
