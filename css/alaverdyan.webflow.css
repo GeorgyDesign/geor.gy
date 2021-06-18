@@ -3509,7 +3509,8 @@ ul {
   }
 
   .h4 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    white-space: normal;
   }
 
   .p {
@@ -3518,11 +3519,7 @@ ul {
   }
 
   .sh1 {
-    font-size: 4em;
-  }
-
-  .sh1.is--font_medium {
-    font-size: 4em;
+    font-size: 3.3em;
   }
 
   .p-box__p.is--font_uppercase {
@@ -3583,7 +3580,7 @@ ul {
 
   .button {
     width: 100%;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .button.is--secondary {
@@ -3622,7 +3619,12 @@ ul {
   }
 
   .faq-p {
-    font-size: 1.3em;
+    font-size: 1.5em;
+  }
+
+  .faq-list {
+    padding-right: 0em;
+    padding-left: 0em;
   }
 
   .form__text-field {
@@ -3646,7 +3648,7 @@ ul {
   }
 
   .form__field-label {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .form-block {
@@ -3655,11 +3657,11 @@ ul {
   }
 
   .form__heading {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   .form__text {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .quote-span {
