@@ -3162,10 +3162,6 @@ ul {
     display: none;
   }
 
-  .section.is--faq {
-    width: 100vw;
-  }
-
   .section.is--contact {
     min-height: auto;
   }
@@ -3202,6 +3198,7 @@ ul {
 
   .faq-list {
     width: auto;
+    max-width: 100vw;
   }
 
   .form__select-field {
@@ -3426,6 +3423,10 @@ ul {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .faq-list {
+    max-width: 100vw;
   }
 
   .form__text-field.is--text_input {
