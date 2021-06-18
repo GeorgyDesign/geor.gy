@@ -3197,7 +3197,6 @@ ul {
   }
 
   .faq-list {
-    width: auto;
     padding-right: 1em;
     padding-left: 1em;
   }
@@ -3426,6 +3425,10 @@ ul {
     flex-direction: column;
   }
 
+  .faq-list {
+    width: 52em;
+  }
+
   .form__text-field.is--text_input {
     margin-top: 0em;
   }
@@ -3635,6 +3638,7 @@ ul {
   }
 
   .faq-list {
+    width: 35em;
     padding-right: 0em;
     padding-left: 0em;
   }
@@ -3768,7 +3772,7 @@ ul {
   }
 
   .newsletter-heading {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: left;
   }
 
