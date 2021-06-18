@@ -3549,7 +3549,7 @@ ul {
   }
 
   .container.is--welcome {
-    padding-top: 6em;
+    padding-top: 10em;
     padding-bottom: 6em;
   }
 
@@ -3612,8 +3612,12 @@ ul {
 
   .form__text-field {
     border-width: 0.1em;
-    border-color: #4b4b4b;
+    border-color: #c1c1c1;
     background-color: #fff;
+  }
+
+  .form__text-field:focus {
+    border-color: #4b4b4b;
   }
 
   .form__text-field.is--budget {
@@ -3629,7 +3633,7 @@ ul {
   }
 
   .form-block {
-    border-color: #c9caca;
+    border-color: #4b4b4b;
     background-color: transparent;
   }
 
@@ -3672,7 +3676,7 @@ ul {
   .form__budget-wrap {
     border-style: solid;
     border-width: 0.1em;
-    border-color: #4b4b4b;
+    border-color: #c1c1c1;
     border-radius: 0.4em;
   }
 
