@@ -2239,7 +2239,10 @@ ul {
   right: 0%;
   bottom: 0%;
   z-index: 999;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2472,7 +2475,6 @@ ul {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  margin-bottom: 2em;
 }
 
 .menu-link-line {
@@ -2519,6 +2521,8 @@ ul {
 
 .menu-link-block-wrap {
   position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .hidden-interactions-wrap {
@@ -3169,6 +3173,10 @@ ul {
     padding-left: 0.2em;
   }
 
+  .menu-link-text {
+    font-size: 1.9em;
+  }
+
   .menu-link-text.is--hover.is--extra {
     position: relative;
     top: 0.1em;
@@ -3176,6 +3184,11 @@ ul {
 
   .embed-wrap {
     right: -8%;
+  }
+
+  .menu-link-block-wrap {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 }
 
