@@ -3162,6 +3162,10 @@ ul {
     display: none;
   }
 
+  .section.is--faq {
+    width: 100vw;
+  }
+
   .section.is--contact {
     min-height: auto;
   }
@@ -3197,8 +3201,7 @@ ul {
   }
 
   .faq-list {
-    padding-right: 1em;
-    padding-left: 1em;
+    width: auto;
   }
 
   .form__select-field {
@@ -3425,10 +3428,6 @@ ul {
     flex-direction: column;
   }
 
-  .faq-list {
-    width: 52em;
-  }
-
   .form__text-field.is--text_input {
     margin-top: 0em;
   }
@@ -3635,12 +3634,6 @@ ul {
 
   .faq-p {
     font-size: 1.5em;
-  }
-
-  .faq-list {
-    width: 35em;
-    padding-right: 0em;
-    padding-left: 0em;
   }
 
   .form__text-field {
