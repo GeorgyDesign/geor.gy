@@ -3477,17 +3477,17 @@ ul {
   }
 
   .h1.is--zero_margin {
-    font-size: 2.8em;
+    font-size: 2.6em;
     font-weight: 700;
   }
 
   .h1.is--down_margin {
-    font-size: 2em;
+    font-size: 2.8em;
   }
 
   .h2.is--group1-related {
     margin-bottom: 1em;
-    font-size: 2.8em;
+    font-size: 2.4em;
   }
 
   .u-list_h.is--zero_margin {
@@ -3495,12 +3495,12 @@ ul {
   }
 
   .h4 {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .p {
     margin-bottom: 1em;
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .sh1 {
@@ -3513,46 +3513,11 @@ ul {
 
   .p-box__p.is--font_uppercase {
     width: auto;
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .p-box {
     width: auto;
-  }
-
-  .container.is--about_me {
-    padding-top: 12em;
-    padding-bottom: 12em;
-  }
-
-  .container.is--footer {
-    padding-top: 12em;
-    padding-bottom: 3em;
-  }
-
-  .container.is--form {
-    padding-top: 12em;
-    padding-bottom: 12em;
-  }
-
-  .container.is--faq {
-    padding-top: 12em;
-    padding-bottom: 12em;
-  }
-
-  .container.is--cta {
-    padding-top: 8em;
-    padding-bottom: 12em;
-  }
-
-  .container.is--services {
-    padding-top: 12em;
-    padding-bottom: 8em;
-  }
-
-  .container.is--welcome {
-    padding-top: 12em;
-    padding-bottom: 12em;
   }
 
   .container.is--menu {
@@ -3582,7 +3547,7 @@ ul {
   }
 
   .u-list_item {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .note.is--zero_left_margin {
@@ -3608,7 +3573,7 @@ ul {
   }
 
   .faq-p {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .form__text-field.is--type {
@@ -3616,11 +3581,15 @@ ul {
   }
 
   .quote-span {
-    font-size: 0.75em;
+    font-size: 0.78em;
   }
 
   .quote-span.is--left_margin {
     margin-left: -0.4em;
+  }
+
+  .quote-name {
+    font-size: 2.2em;
   }
 
   .button-wrap {
@@ -3725,6 +3694,10 @@ ul {
   .navbar-content-wrap {
     padding-right: 2em;
     padding-left: 2em;
+  }
+
+  .socials-bar-wrap {
+    display: none;
   }
 }
 @font-face {
