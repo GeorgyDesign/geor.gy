@@ -2851,15 +2851,21 @@ ul {
   margin-top: 0em;
   margin-bottom: 0px;
   padding: 0.26em 0.4em;
-  border: 0em solid #000;
+  border: 0.1em solid transparent;
   border-radius: 0.4em;
   background-color: #eceff1;
+  -webkit-transition: border-color 200ms cubic-bezier(.455, .03, .515, .955);
+  transition: border-color 200ms cubic-bezier(.455, .03, .515, .955);
   font-family: Manrope, sans-serif;
   color: #2b2b2b;
   font-size: 1.3em;
   line-height: 1.6;
   font-weight: 500;
   text-align: left;
+}
+
+.newsletter-input:focus {
+  border-color: #4b4b4b;
 }
 
 .newsletter-input::-webkit-input-placeholder {
@@ -3152,6 +3158,10 @@ ul {
     font-size: 9px;
   }
 
+  .b-wrap {
+    display: none;
+  }
+
   .section.is--contact {
     min-height: auto;
   }
@@ -3187,6 +3197,7 @@ ul {
   }
 
   .faq-list {
+    width: auto;
     padding-right: 1em;
     padding-left: 1em;
   }
@@ -3393,15 +3404,15 @@ ul {
   }
 
   .image-wrap.is--relative_position {
-    width: auto;
+    width: 40em;
     height: auto;
     margin-right: 0em;
     margin-bottom: 3em;
   }
 
   .image-wrap.is--left_margin {
-    width: auto;
-    height: 50em;
+    width: 40em;
+    height: 30em;
     margin-bottom: 3em;
     margin-left: 0em;
   }
@@ -3413,10 +3424,6 @@ ul {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-
-  .faq-list {
-    width: auto;
   }
 
   .form__text-field.is--text_input {
@@ -3606,11 +3613,16 @@ ul {
     padding-left: 0em;
   }
 
+  .image-wrap.is--relative_position {
+    width: auto;
+  }
+
   .image-wrap.is--contact {
     width: 34em;
   }
 
   .image-wrap.is--left_margin {
+    width: auto;
     height: 28em;
   }
 
@@ -3756,11 +3768,12 @@ ul {
   }
 
   .newsletter-heading {
-    font-size: 1.4em;
+    font-size: 2em;
+    text-align: left;
   }
 
   .newsletter-text {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .newsletter-input.is--email {
@@ -3778,6 +3791,10 @@ ul {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .newsletter-note {
+    font-size: 1em;
   }
 
   .newsletter-popup-wrap {
