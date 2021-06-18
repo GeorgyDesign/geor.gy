@@ -3196,12 +3196,6 @@ ul {
     top: 0em;
   }
 
-  .faq-list {
-    width: auto;
-    padding-right: 2em;
-    padding-left: 2em;
-  }
-
   .form__select-field {
     padding-left: 0.2em;
   }
@@ -3426,6 +3420,10 @@ ul {
     flex-direction: column;
   }
 
+  .faq-list {
+    width: 95vw;
+  }
+
   .form__text-field.is--text_input {
     margin-top: 0em;
   }
@@ -3632,11 +3630,6 @@ ul {
 
   .faq-p {
     font-size: 1.5em;
-  }
-
-  .faq-list {
-    padding-right: 0em;
-    padding-left: 0em;
   }
 
   .form__text-field {
