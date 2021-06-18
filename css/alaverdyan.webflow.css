@@ -3498,6 +3498,7 @@ ul {
 
   .p-box__p.is--font_uppercase {
     width: auto;
+    font-size: 1.3em;
   }
 
   .p-box {
@@ -3535,8 +3536,8 @@ ul {
   }
 
   .container.is--welcome {
-    padding-top: 15em;
-    padding-bottom: 15em;
+    padding-top: 20em;
+    padding-bottom: 20em;
   }
 
   .container.is--menu {
@@ -3567,6 +3568,10 @@ ul {
 
   .u-list_item {
     font-size: 1.3em;
+  }
+
+  .note.is--zero_left_margin {
+    font-size: 1.7em;
   }
 
   .text-wrap.is--down_margin {
