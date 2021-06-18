@@ -3198,7 +3198,8 @@ ul {
 
   .faq-list {
     width: auto;
-    max-width: 90vw;
+    padding-right: 2em;
+    padding-left: 2em;
   }
 
   .form__select-field {
@@ -3631,6 +3632,11 @@ ul {
 
   .faq-p {
     font-size: 1.5em;
+  }
+
+  .faq-list {
+    padding-right: 0em;
+    padding-left: 0em;
   }
 
   .form__text-field {
