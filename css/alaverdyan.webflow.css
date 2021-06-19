@@ -3157,6 +3157,10 @@ ul {
 }
 
 .embed-form-code {
+  display: block;
+}
+
+.form-success-trigger {
   display: none;
 }
 
