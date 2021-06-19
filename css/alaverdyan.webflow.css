@@ -152,6 +152,10 @@ ul {
   padding-left: 1.4em;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .style-guide-wrap {
   position: relative;
   display: none;
@@ -1152,6 +1156,10 @@ ul {
 
 .container.is--projects {
   max-width: none;
+}
+
+.container.is--policy {
+  padding: 8em 15em 6em;
 }
 
 .grid {
@@ -3164,6 +3172,42 @@ ul {
   display: none;
 }
 
+.policy-rich-text li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+
+.policy-rich-text h1 {
+  margin-bottom: 0.5em;
+  font-weight: 800;
+}
+
+.policy-rich-text h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.policy-rich-text p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.policy-rich-text h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.policy-wrap {
+  padding: 2em 4em;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #c9caca;
+  border-radius: 2em;
+  box-shadow: 0 1px 1em 0.1em rgba(201, 202, 202, 0.5);
+  text-align: left;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 9px;
@@ -3185,6 +3229,11 @@ ul {
   .container.is--contact {
     padding-top: 6em;
     padding-bottom: 6em;
+  }
+
+  .container.is--policy {
+    padding-right: 10em;
+    padding-left: 10em;
   }
 
   .grid {
@@ -3282,11 +3331,6 @@ ul {
     display: none;
   }
 
-  .content {
-    padding-right: 2em;
-    padding-left: 2em;
-  }
-
   .sh1 {
     font-size: 5em;
   }
@@ -3327,6 +3371,11 @@ ul {
 
   .container.is--contact {
     padding-bottom: 3em;
+  }
+
+  .container.is--policy {
+    padding-right: 5em;
+    padding-left: 5em;
   }
 
   .grid {
@@ -3586,6 +3635,11 @@ ul {
     padding-left: 0em;
   }
 
+  .container.is--policy {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
   .grid {
     grid-row-gap: 2em;
     -ms-grid-columns: auto;
@@ -3823,6 +3877,11 @@ ul {
   .mobile-only-image {
     display: block;
     margin-bottom: 4em;
+  }
+
+  .policy-wrap {
+    padding-right: 2em;
+    padding-left: 2em;
   }
 }
 @font-face {
