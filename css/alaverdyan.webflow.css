@@ -3204,8 +3204,20 @@ strong {
   border-width: 0.2em;
   border-color: #c9caca;
   border-radius: 2em;
-  box-shadow: 0 1px 1em 0.1em rgba(201, 202, 202, 0.5);
+  box-shadow: 0 1px 1em 0.1em rgba(201, 202, 202, 0.3);
   text-align: left;
+}
+
+.policy-note-wrap {
+  margin-bottom: 2em;
+  padding-right: 12em;
+  padding-left: 12em;
+}
+
+.policy-note-text {
+  font-size: 1.4em;
+  line-height: 1.2;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -3548,6 +3560,11 @@ strong {
   .newsletter-popup-wrap {
     width: 52em;
   }
+
+  .policy-note-wrap {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3882,6 +3899,11 @@ strong {
   .policy-wrap {
     padding-right: 2em;
     padding-left: 2em;
+  }
+
+  .policy-note-wrap {
+    padding-right: 1em;
+    padding-left: 1em;
   }
 }
 @font-face {
