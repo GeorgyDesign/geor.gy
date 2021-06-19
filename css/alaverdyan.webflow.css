@@ -617,6 +617,7 @@ strong {
   z-index: 2;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 2.6em;
 }
 
 .h1.is--down_margin {
@@ -635,7 +636,7 @@ strong {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Manrope, sans-serif;
-  font-size: 2.08em;
+  font-size: 2.66em;
   line-height: 1.2;
   font-weight: 700;
   cursor: default;
@@ -643,6 +644,21 @@ strong {
 
 .h2.is--group1-related {
   margin-bottom: 1.5em;
+}
+
+.h2.is--services {
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.h2.is--font_uppercase {
+  font-weight: 500;
+}
+
+.h2.is--bottom_margin {
+  margin-bottom: 1.15em;
+  font-weight: 500;
 }
 
 .u-list_h {
@@ -1755,6 +1771,7 @@ strong {
 }
 
 .form__heading {
+  margin-top: 0px;
   margin-bottom: 0.6em;
   font-family: Manrope, sans-serif;
   font-size: 1.67em;
