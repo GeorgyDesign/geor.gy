@@ -3156,6 +3156,10 @@ ul {
   display: none;
 }
 
+.embed-form-code {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 9px;
