@@ -830,5 +830,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       // Nice!
     });
   </script>
+  
+  <!-- Basin form analytics -->
+  
+  <script type="text/javascript">
+    function configureAhoy() {
+    ahoy.configure({
+    visitsUrl: "https://usebasin.com/ahoy/visits",
+    eventsUrl: "https://usebasin.com/ahoy/events",
+    page: "1a2b3c4d5e6f" /* Use your form id here, this is just an example */
+    });
+    ahoy.trackView();
+    ahoy.trackSubmits();
+    }
+  </script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.4/dist/ahoy.min.js" async defer onload="configureAhoy()" ></script>
 </body>
 </html>
